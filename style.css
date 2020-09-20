@@ -9,8 +9,8 @@ li {
 
 h3 {
     float: left;
-    padding-left: 100px;
-    padding-top: 1px;
+    margin-left: 100px;
+    margin-top: 21px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -19,7 +19,7 @@ h3 {
 
 header {
     height: 2px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     position: relative;
 }
 
@@ -30,42 +30,68 @@ img {
     position: sticky;
     bottom: 0;
 }
+
 body {
     background-color: white;
-    overflow: hidden;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #B8D0D8;
+    margin: 0;
 }
 
 .name {
     float: left;
-    padding-left: 100px;
+    margin-left: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
 #tagline {
     text-align: center;
-    padding-top: 100px;
+    margin-top: 100px;
     color: black;
 }
 
 #about {
     font-size: 25px;
     text-align: center;
-    padding-top: 150px;
+    margin-top: 150px;
 }
 
 #copyright {
     font-size: 12px;
-    padding-top: 30em;
+    margin-top: 30em;
     color: black;
-    position: sticky;
+    position: fixed;
     bottom: 0;
 }
 
 #ti {
     text-align: center;
-    padding-top: 135px;
+    margin-top: 135px;
     font-size: 30px;
     color: black;
+}
+
+#kk {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 6em;
+}
+
+#about-img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+}
+
+#social {
+    margin-top: 400px;
 }
 
