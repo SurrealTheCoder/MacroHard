@@ -1,35 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>MacroHard Systems</title>
-</head>
-<body>
-    <header>
-        <nav>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>MacroHard Systems</title>
+      <style>
+         * {
+         box-sizing: border-box;
+         }
+         .column {
+         float: left;
+         width: 33.33%;
+         padding: 5px;
+         padding-right: 50px;
+         }
+         /* Clearfix (clear floats) */
+         .row::after {
+         content: "";
+         clear: both;
+         display: table;
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         <nav>
             <ul>
-                <li>
-                    <a href="index.html"><h2 class="name">MacroHard</h2></a>
-                </li>
-                <li>
-                    <a href="index.html"><h3>Home</h3></a>
-                </li>
-                <li>
-                    <a href="about.html"><h3>About</h3></a>
-                </li>
-                <li>
-                    <a href="products.html"><h3>Products</h3></a>
-                </li>
-                <li>
-                    <a href="future.html"><h3>Future</h3></a>
-                </li>
-                <li>
-                    <a href="cart.html"><h3>Cart</h3></a>
-                </li>
+               <li>
+                  <a href="index.html">
+                     <h2 class="name">MacroHard</h2>
+                  </a>
+               </li>
+               <li>
+                  <a href="index.html">
+                     <h3>Home</h3>
+                  </a>
+               </li>
+               <li>
+                  <a href="about.html">
+                     <h3>About</h3>
+                  </a>
+               </li>
+               <li>
+                  <a href="products.html">
+                     <h3>Products</h3>
+                  </a>
+               </li>
+               <li>
+                  <a href="future.html">
+                     <h3>Future</h3>
+                  </a>
+               </li>
+               <li class="cart">
+                  <a href="cart.html">
+                     <h3>Cart</h3>
+                  </a>
+               </li>
             </ul>
-        </nav>
-    </header>
-</body>
+         </nav>
+      </header>
+      <p id="product-head">Our Products</p>
+      <div class="row">
+      <div class="column">
+         <img src="shirt.jpg" alt="Shirt" id="product">
+         <h4>Shirt</h4>
+         <h5>$14.99</h5>
+         <a class="add-cart" href="#"><button>Add To Cart</button></a>
+      </div>
+      <div class="column">
+         <img src="watch.jpeg" alt="Watch" id="product">
+         <h4>Watch</h4>
+         <h5>$25.99</h5>
+         <a class="add-cart" href="#"><button>Add To Cart</button></a>
+      </div>
+      <div class="column">
+         <img src="hoodie.jpg" alt="Hoodie" id="product">
+         <h4>Hoodie</h4>
+         <h5>$9.99</h5>
+         <a class="add-cart" href="#"><button>Add To Cart</button></a>
+      </div>
+      <div class="column">
+         <img src="jeans.jpg" alt="Jeans" id="product">
+         <h4>Jeans</h4>
+         <h5>$29.99</h5>
+         <a class="add-cart" href="#"><button>Add To Cart</button></a>
+      </div>
+      <div class="column">
+      <img src="socks.jpg" alt="Socks" id="product">
+      <h4>Socks</h4>
+      <h5>$14.99</h5>
+      <a class="add-cart" href="#"><button>Add To Cart</button></a>
+      <script src="products.js"></script>
+   </body>
 </html>
