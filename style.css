@@ -1,10 +1,21 @@
 a {
-    text-decoration: none;
     color: black;
+}
+
+h3:hover {
+    text-decoration: underline;
 }
 
 li {
     list-style-type: none;
+}
+
+div {
+    display: inline-block;
+}
+
+div label {
+    display: block;
 }
 
 h3 {
@@ -54,12 +65,14 @@ ul {
     margin: 0;
 }
 
+
 .name {
     float: left;
     margin-left: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+
 
 #tagline {
     text-align: center;
@@ -116,9 +129,10 @@ ul {
 
 #product-head {
     text-align: center;
-    margin-top: 135px;
+    margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
+    border-bottom: 2px solid black;
 }
 
  #cart-header {
@@ -126,61 +140,26 @@ ul {
      margin-top: 5em;
  }
 
+ #cart-title {
+     margin-left: 20em;
+ }
+
+ #checkout {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#checkout-form {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 10%;
+    
+}
+
  .add-to-cart {
      position: absolute;
      background-color: darkgray;
      transition: all 0.3 ease-in-out;
      cursor: pointer;
      text-align: center;
- }
-
- /*-----------Cart-----------*/
-
- .products-container {
-     max-width: 650px;
-     justify-content: space-around;
-     margin: 0 auto;
-     margin-top: 50px;
- }
-
- .product-header {
-     width: 100%;
-     max-width: 650px;
-     display: flex;
-     justify-content: flex-start;
-     border-bottom: 4px solid lightgray;
- }
-
- .product-title {
-     width: 45%;
- }
-
- .price {
-     width: 15%;
-     border-bottom: 1px solid lightgray;
-     display: flex;
-     align-items: center;
- }
-
- .quantity {
-     width: 30%;
-     border-bottom: 1px solid lightgray;
-     display: flex;
-     align-items: center;
- }
-
- .total {
-     width: 10%;
-     border-bottom: 1px solid lightgray;
-     display: flex;
-     align-items: center;
- }
-
- .product {
-     width: 45%;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     padding: 10px 0;
-     border-bottom: 1px solid lightgray;
  }
