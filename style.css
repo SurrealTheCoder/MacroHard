@@ -1,3 +1,16 @@
+button {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    transition: 1.5s;
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
 a {
     color: black;
 }
@@ -65,14 +78,12 @@ ul {
     margin: 0;
 }
 
+/*ID's*/
 
-.name {
-    float: left;
-    margin-left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+#future {
+    text-align: center;
+    margin-top: 6em;
 }
-
 
 #tagline {
     text-align: center;
@@ -115,7 +126,9 @@ ul {
 }
 
 #social {
-    margin-top: 400px;
+    margin-top: 25em;
+    position: relative;
+    bottom: 0;
 }
 
 #product {
@@ -156,10 +169,114 @@ ul {
     
 }
 
- .add-to-cart {
+#s16 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#s16-sub-header {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#s16-price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#s32 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3.3em;
+}
+
+#s32-sub-header {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#s32-price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#s64 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3.3em;
+}
+
+#s64-sub-header {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#s64-price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#s128 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3.3em;
+}
+
+#s128-sub-header {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#s128-price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Classes*/
+
+.add-to-cart {
      position: absolute;
      background-color: darkgray;
      transition: all 0.3 ease-in-out;
      cursor: pointer;
      text-align: center;
  }
+
+ .page-header {
+     text-align: center;
+     margin-top: 100px;
+     font-size: x-large;
+ }
+
+.page-sub-header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.name {
+    float: left;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
