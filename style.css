@@ -106,15 +106,18 @@ ul {
 }
 
 #kk {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 6em;
+	font-size: 40px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: left;
+	margin-left: 40px;
+    margin-top: 5em;
 }
 
-#kk-2 {
-    text-decoration: none;
-    text-align: center;
-    margin-top: 20px;
+#kk-sub-header {
+	text-align: left;
+	margin-left: 6em;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .about-img {
@@ -145,16 +148,16 @@ ul {
     font-size: 45px;
 }
 
- #cart-header {
+#cart-header {
      text-align: center;
      margin-top: 5em;
  }
 
- #cart-title {
+#cart-title {
      margin-left: 20em;
  }
 
- #checkout {
+#checkout {
     text-align: center;
     margin-top: 50px;
 }
@@ -329,11 +332,6 @@ ul {
     margin-top: 3em;
 }
 
-#kk-sub-header {
-    text-align: center;
-    font-size: 20px;
-}
-
 #about-content {
     font-size: 25px;
     color: black;
@@ -376,8 +374,9 @@ ul {
 
 .goal {
     text-align: left;
-    font-size: 25px;
-    margin-top: 5em;
+    font-size: 20px;
+	margin-top: 2em;
+	margin-left: 8em;
 }
 
 
