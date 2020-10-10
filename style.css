@@ -23,14 +23,6 @@ li {
     list-style-type: none;
 }
 
-div {
-    display: inline-block;
-}
-
-div label {
-    display: block;
-}
-
 h3 {
     float: left;
     margin-left: 100px;
@@ -57,14 +49,6 @@ header {
     position: relative;
 }
 
-img {
-    height: 40px;
-    width: 40px;
-    float: right;
-    position: sticky;
-    bottom: 0;
-}
-
 body {
     background-color: white;
 }
@@ -74,11 +58,20 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #B8D0D8;
+    background-color:white;
+    box-shadow: black 1px 2px 8px;
     margin: 0;
 }
 
 /*ID's*/
+
+#social {
+    height: 40px;
+    width: 40px;
+    float: right;
+    position: sticky;
+    bottom: 0;
+}
 
 #future {
     text-align: center;
@@ -106,7 +99,7 @@ ul {
 }
 
 #ti {
-    text-align: center;
+ 	text-align: center;
     margin-top: 135px;
     font-size: 30px;
     color: black;
@@ -118,10 +111,15 @@ ul {
     margin-top: 6em;
 }
 
-#about-img {
-    display: block;
-    width: 300px;
-    height: 300px;
+#kk-2 {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-img {
+    width: 325px;
+    height: 275px;
     z-index: -1;
 }
 
@@ -145,7 +143,6 @@ ul {
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
-    border-bottom: 2px solid black;
 }
 
  #cart-header {
@@ -166,7 +163,7 @@ ul {
     width: 50%;
     margin-left: 40%;
     margin-top: 10%;
-    
+
 }
 
 #s16 {
@@ -245,10 +242,107 @@ ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#mh-1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 3.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mh-1-sub-header {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#mh-1-price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#t16 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3.3em;
+}
+
+#t16-sub-header {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#t16-price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#t32 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3.3em;
+}
+
+#t32-sub-header {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#t32-price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#bitface {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3.3em;
+}
+
+#bitface-sub-header{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#bitface-price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#thank-you {
+    text-align: center;
+    margin-top: 3em;
+}
+
+#kk-sub-header {
+    text-align: center;
+    font-size: 20px;
+}
+
+#about-content {
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+#future-sub-header {
+	text-align: center;
 }
 
 /*Classes*/
@@ -261,7 +355,7 @@ ul {
      text-align: center;
  }
 
- .page-header {
+.page-header {
      text-align: center;
      margin-top: 100px;
      font-size: x-large;
@@ -279,4 +373,11 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+
+.goal {
+    text-align: left;
+    font-size: 25px;
+    margin-top: 5em;
+}
+
 
