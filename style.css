@@ -343,6 +343,50 @@ ul {
 	text-align: center;
 }
 
+/* Cart Styles */
+
+#your-cart {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+#product-select {
+    font-size: 25px;
+    margin-left: 10em;
+    margin-top: 5em;
+    display: inline-block;
+    border-bottom: 0.7px solid black;
+}
+
+#quantity {
+    font-size: 25px;
+    margin-left: 10em;
+    margin-top: 5em;
+    display: inline-block;
+    border-bottom: 0.7px solid black;
+}
+
+#price {
+    font-size: 25px;
+    margin-left: 10em;
+    margin-top: 5em;
+    display: inline-block;
+    border-bottom: 0.7px solid black;
+}
+
+#total {
+    font-size: 25px;
+    margin-left: 10em;
+    margin-top: 5em;
+    display: inline-block;
+    border-bottom: 0.7px solid black;
+}
+.paired {
+    margin-left: 7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /*Classes*/
 
 .add-to-cart {
