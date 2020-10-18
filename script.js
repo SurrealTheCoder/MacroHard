@@ -2,56 +2,56 @@
 /* eslint-disable radix */
 /* eslint-disable quotes */
 /* eslint-disable strict */
-let carts = document.querySelectorAll('#add-cart');
+let carts = document.querySelectorAll('.add-cart');
 
 let products = [
   {
-    name:'Macro OS',
-    tag:'OS',
-    price:29.99,
-    inCart:0
+    name: 'Macro OS',
+    tag: 'OS',
+    price: 29.99,
+    inCart: 0
   },
   {
-    name:'MacroHard 16T',
-    tag:'16T',
-    price:499.99,
-    inCart:0
+    name: 'MacroHard 16T',
+    tag: '16T',
+    price: 449,
+    inCart: 0
   },
   {
-    name:'MacroHard 32T',
-    tag:'32T',
-    price:629.99,
-    inCart:0
+    name: 'MacroHard 32T',
+    tag: '32T',
+    price: 629,
+    inCart: 0
   },
   {
-    name:'MacroHard BitFace',
-    tag:'BitFace',
-    price:499.99,
-    inCart:0
+    name: 'MacroHard BitFace',
+    tag: 'BitFace',
+    price: 419,
+    inCart: 0
   },
   {
-    name:'Macrohard 16S',
-    tag:'16S',
-    price:299.99,
-    inCart:0
+    name: 'Macrohard 16S',
+    tag: '16S',
+    price: 279,
+    inCart: 0
   },
   {
-    name:'MacroHard 32S',
-    tag:'32S',
-    price:399.99,
-    inCart:0
+    name: 'MacroHard 32S',
+    tag: '32S',
+    price: 379,
+    inCart: 0
   },
   {
-    name:'MacroHard 64S',
-    tag:'64S',
-    price:499.99,
-    inCart:0
+    name: 'MacroHard 64S',
+    tag: '64S',
+    price: 479,
+    inCart: 0
   },
   {
-    name:'MacroHard 128S',
-    tag:'128S',
-    price:599.99,
-    inCart:0
+    name: 'MacroHard 128S',
+    tag: '128S',
+    price: 579,
+    inCart: 0
   }
 ];
 
@@ -83,16 +83,14 @@ function cartNumbers(product) {
 }
 
 function setItems(product) {
-  let cartItems = localStorage.getItem('productsInCart');
+  let cartItems = localStorage.getItem("productsInCart");
   cartItems = JSON.parse(cartItems);
 
   if (cartItems != null) {
-    if (cartItems[product.tag] == undefined) {
-      cartItems = {
-        ...cartItems,
-        [product.tag]: product
-      };
-    }
+    cartItems = {
+      ...cartItems,
+      [product.tag]: product
+    };
 
     cartItems[product.tag].inCart += 1;
   } else {
@@ -104,3 +102,4 @@ function setItems(product) {
   localStorage.setItem("productsInCart", JSON.stringify(cartItems));
 }
 onLoadCartNumbers();
+);
