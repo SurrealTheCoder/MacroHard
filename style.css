@@ -3,7 +3,7 @@ button {
     border-radius: 5px;
     border: none;
     color: white;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 button:hover {
@@ -345,48 +345,12 @@ ul {
 
 /* Cart Styles */
 
-#your-cart {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
+.cart-info {
+    text-align: center;
     margin-top: 5em;
-    margin-left: 2em;
-}
-
-#product-select {
-    font-size: 25px;
-    margin-left: 10em;
-    margin-top: 5em;
-    display: inline-block;
-    border-bottom: 0.7px solid black;
-}
-
-#quantity {
-    font-size: 25px;
-    margin-left: 10em;
-    margin-top: 5em;
-    display: inline-block;
-    border-bottom: 0.7px solid black;
-}
-
-#price {
-    font-size: 25px;
-    margin-left: 10em;
-    margin-top: 5em;
-    display: inline-block;
-    border-bottom: 0.7px solid black;
-}
-
-#total {
-    font-size: 25px;
-    margin-left: 10em;
-    margin-top: 5em;
-    display: inline-block;
-    border-bottom: 0.7px solid black;
-}
-.paired {
-    margin-left: 7em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 /*Classes*/
 
 .add-to-cart {
@@ -423,4 +387,130 @@ ul {
 	margin-left: 8em;
 }
 
+.js-form-element {
+    margin-top: 5em;
+}
+
+/* Index.html typing */
+
+.css-typing h2 {
+    border-right: .15em solid orange;
+    font-family: "Courier";
+    font-size: 14px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .css-typing h2:nth-child(1) {
+    width: 8.3em;
+    -webkit-animation: type 3.0s steps(250, end);
+    animation: type 2.0s steps(250, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    display: inline-block;
+    width: 100%;
+  }
+    .css-typing h2:nth-child(2) {
+    width: 30em;
+    opacity: 0;
+    -webkit-animation: type2 3.0s steps(250, end);
+    animation: type2 2.0s steps(250, end);
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    display: inline-block;
+    width: 100%;
+  }
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
 

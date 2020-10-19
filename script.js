@@ -102,4 +102,3 @@ function setItems(product) {
   localStorage.setItem("productsInCart", JSON.stringify(cartItems));
 }
 onLoadCartNumbers();
-);
