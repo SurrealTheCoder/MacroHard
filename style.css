@@ -1,5 +1,5 @@
 button {
-    background-color: rebeccapurple;
+    background-color: rgb(24, 99, 197);
     border-radius: 5px;
     border: none;
     color: white;
@@ -289,20 +289,20 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.mh-1 {
+.os-1 {
     text-align: center;
     font-size: 70px;
     margin-top: 3.3em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.mh-1-sub-header {
+.os-1-sub-header {
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
-.mh-1-price {
+.os-1-price {
     text-align: center;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -394,7 +394,6 @@ header {
     margin-top: 5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 /*Classes*/
 
 .add-to-cart {
@@ -555,26 +554,36 @@ header {
 
   .product-name {
     font-size: 20px;
-    margin-left: 5em;
+    margin-left: 15em;
+    margin-top: 5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block; 
   }
 
   .price {
     font-size: 20px;
-    margin-left: 5em;
+    margin-left: 10em;
+    margin-top: 5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
   }
 
   .qty {
     font-size: 20px;
-    margin-left: 5em;
+    margin-left: 10em;
+    margin-top: 5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-align: center;
   }
 
   .total {
     font-size: 20px;
-    margin-left: 5em;
+    margin-left: 10em;
+    margin-top: 5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-align: center;
   }
 
  
