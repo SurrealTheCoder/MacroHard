@@ -33,6 +33,7 @@ h5 {
 body {
     background-color: white;
     overflow: visible;
+    z-index: -1;
 }
 
 /* site buttons */
@@ -70,6 +71,7 @@ body {
 /* Navbar */
 
 .general-nav {
+    z-index: 1;
     position: fixed;
     margin: 0;
     padding: 0;
